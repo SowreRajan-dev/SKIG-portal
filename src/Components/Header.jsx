@@ -23,7 +23,7 @@ const Header = () => {
           <li key={index}>
             <Link
               to={link.path}
-              className={`block md:inline-block py-2 px-3 rounded hover:font-bold font-roboto text-[1.5rem] ${
+              className={`block md:inline-block py-2 px-3 rounded hover:font-bold font-roboto text-[1.2rem] lg:text-[1.5rem] ${
                 location.pathname === link.path ? "font-bold" : ""
               }`}
             >
